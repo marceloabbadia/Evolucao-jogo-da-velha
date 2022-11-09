@@ -1,0 +1,35 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  font-size: 36px;
+  background-color: black;
+  color: white;
+}
+
+table {
+  font-size: 96px;
+  margin: 1em auto;
+}
+
+td {
+  border: 2px solid rgb(255, 255, 255);
+  height: 1.5em;
+  width: 1.5em;
+  font-weight: bold;
+  color: rgb(17, 224, 27);
+  cursor: pointer;
+}
+
+#msg {
+  margin-bottom: 1em;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  background-color: rgb(255, 255, 255);
+}

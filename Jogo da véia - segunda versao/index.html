@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Jogo da Véia</title>
+    <link rel="stylesheet" href="./estilos.css" />
+  </head>
+  <body>
+    <h1>Jogo da Véia</h1>
+    <table>
+      <tbody id="tabuleiro">
+        <tr>
+          <td onclick="fazJogada(0, 0)"></td>
+          <td onclick="fazJogada(0, 1)"></td>
+          <td onclick="fazJogada(0, 2)"></td>
+        </tr>
+        <tr>
+          <td onclick="fazJogada(1, 0)"></td>
+          <td onclick="fazJogada(1, 1)"></td>
+          <td onclick="fazJogada(1, 2)"></td>
+        </tr>
+        <tr>
+          <td onclick="fazJogada(2, 0)"></td>
+          <td onclick="fazJogada(2, 1)"></td>
+          <td onclick="fazJogada(2, 2)"></td>
+        </tr>
+      </tbody>
+    </table>
+    <div id="msg">Aguardando jogada de O...</div>
+    <button onclick="reinicia()">Reiniciar</button>
+
+    <script src="./jogo-da-velha.js"></script>
+  </body>
+</html>

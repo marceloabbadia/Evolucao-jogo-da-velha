@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  width: 600 px;
+  height: 700px;
+  margin: auto;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 50pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  font-size: 50pt;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+  text-align: end;
+  font-size: 10pt;
+  margin-top: -40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  width: 54%;
+  height: 100%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.base1 p {
+  display: inline-block;
+  background: blue;
+  color: white;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  border-radius: 10%;
+  text-align: center;
+}
+.base2 p {
+  display: inline-block;
+  background: blue;
+  color: white;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  border-radius: 10%;
+  text-align: center;
+}
+.base3 p {
+  display: inline-block;
+  background: blue;
+  color: white;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  border-radius: 10%;
+  text-align: center;
+}
+
+#BT {
+  margin-top: 10px;
+  font-size: 20pt;
+  border-radius: 10%;
+  padding: auto;
+}
+
+#quemGanhou {
+  color: white;
+  margin-left: 50px;
+  font-size: 25pt;
+}
